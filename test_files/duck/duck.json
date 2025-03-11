@@ -1,0 +1,25 @@
+{
+    "type" : "3d",
+    "source" : "test_files/duck/duck.stl",
+    "export" : "stl",
+    "extrude_height" : 3,
+    "export_folder": "test_files/duck/stls",
+    "export_prefix" : "duck",
+
+    "params" : {
+        "type": "grid_slice",
+        "transpose": 0,
+        
+        "height" : 60,
+
+        "thickness" : 3,
+        "kerf" : 0.0,
+        
+        "length_slices" : 4,
+        "height_slices" : 5,
+
+        "vertical_offset": -4
+    }
+}
+
+

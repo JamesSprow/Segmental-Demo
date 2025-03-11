@@ -1,0 +1,25 @@
+{
+  "name": "Furniture Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "./"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "matepek.vscode-catch2-test-adapter",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-python.python",
+        "mtsmfm.vscode-stl-viewer",
+      ],
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "python.defaultInterpreterPath": "/usr/local/bin/python3"
+      }
+    }
+  },
+  "postCreateCommand": "pip install --no-cache-dir -r requirements.txt",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace"
+}

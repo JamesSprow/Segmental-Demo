@@ -1,0 +1,9 @@
+matplotlib==3.8.4
+numpy==2.2.2
+numpy_stl==3.1.1
+Shapely==2.0.6
+triangle==20230923
+utils==1.0.2
+#Pillow==10.1.0
+Pillow==11.1.0
+pycairo==1.25.1
