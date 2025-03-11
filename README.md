@@ -24,6 +24,8 @@ python segmental.py test_files/radial_table/radial_table.json
 ```
 This will load the radial_table.json file and create a segmental model based on the specified parameters.
 
+The test files can be found in the test_files directory, where the results of both svg and stl export can be found for both the duck and radial_table models.
+
 Input JSON Format
 The input JSON files are used to specify the parameters for the segmental model creation. The format is as follows:
 
@@ -55,7 +57,7 @@ The params section specifies the type of segmental model to create, as well as v
 This project has a dev container specified in the .devcontainer directory. This is meant to be used with the Dev Containers VS Code extension. If the container is built, it will install all necessary requirements, as well as some VS Code extensions (only installed in the container) to make it easier to preview the stl files.
 
 ### Notes
-The Segmental program is still a work in progress, and there may be bugs or incomplete features. Please report any issues or suggestions to the development team.
+The Segmental program is still a work in progress, and there may be bugs or incomplete features.
 
 ### Requirements
 The program requires the following dependencies:
